@@ -53,5 +53,28 @@ IDState INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 FirstName VARCHAR (100)
 );
 
+INSERT INTO Products(FirstName, Description) VALUES ('Blusa', 'Blusa tres cuartos'), 
+('Calcetas', 'Calcetas de Hello Kitty'), 
+('Falda', 'Falda con diseño de Cinnamoroll'), 
+('Top', 'Top azul celeste'), 
+('Short', 'Short corto con diseño de Kuromi');
+INSERT INTO Material(FirstName) VALUES ('Lino'), 
+('Algodón'), 
+('Mezquilla'), 
+('Seda'), 
+('Chándal');
+INSERT INTO Genre(FirstName) VALUES ('Femenino'), 
+('Masculino'), 
+('Niño'), 
+('Niña'), 
+('Bebé');
+INSERT INTO Size(FirstName) VALUES ('Extra Chica'), 
+('Chica'), 
+('Mediana'), 
+('Grande'), 
+('Extra Grande');
+INSERT INTO Branch(FirstName, Street) VALUES (
+
+
 
 
